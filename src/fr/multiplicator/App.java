@@ -16,6 +16,10 @@ public class App {
     private JSlider sliderDifficult;
     private JLabel labelDifficult;
     private JLabel labelMessage;
+    private JButton resetButton;
+    private JLabel labelScore;
+    private JLabel labelTotal;
+    private JLabel labelRatio;
 
     public App() {
         labelDifficult.setText(Integer.toString(sliderDifficult.getValue()));
@@ -31,15 +35,24 @@ public class App {
                     if (verifResultat == resultatAVerifier) {
                         //JOptionPane.showConfirmDialog(null, "Bien joué !");
                         labelMessage.setText("Bien joué !");
+                        int Score = Integer.parseInt(labelScore.getText()) + 1 ;
+                        int Total = Integer.parseInt(labelTotal.getText()) + 1 ;
+                        labelScore.setText(Integer.toString(Score));
+                        labelTotal.setText(Integer.toString(Total));
+
                     } else {
                         //JOptionPane.showConfirmDialog(null, "C'est raté");
                         labelMessage.setText("C'est raté");
+                        int Total = Integer.parseInt(labelTotal.getText()) + 1 ;
+                        labelTotal.setText(Integer.toString(Total));
                     }
                 } else {
                     //saisie incorrecte
                     //JOptionPane.showConfirmDialog(null, "Saisir incorrecte");
                     labelMessage.setText("Saisir incorrecte");
                 }
+                float Ratio = Float.parseFloat(labelScore.getText()) / Float.parseFloat(labelTotal.getText()) * 100;
+                labelRatio.setText(Float.toString(Math.round(Ratio)) + "%");
                 textFieldReponse.setText(null);
                 methodeNvCalcul();
             }
@@ -53,6 +66,14 @@ public class App {
             }
         });
 
+        resetButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                labelScore.setText("0");
+                labelTotal.setText("0");
+                methodeNvCalcul();
+            }
+        });
     }
 
     public static void main(String[] args) {
