@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="468876fe-07af-4618-a62b-40ac19e0b512" name="Changes" comment="mise à jour" />
+    <list default="true" id="468876fe-07af-4618-a62b-40ac19e0b512" name="Changes" comment="mise à jour">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Multiplicator_jar/Multiplicator.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Multiplicator_jar/Multiplicator.jar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,8 +39,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "175",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "578",
-    "last_opened_file_path": "C:/Users/mikae/IdeaProjects/Multiplicator",
-    "project.structure.last.edited": "Global Libraries",
+    "last_opened_file_path": "C:/Users/mikae/IdeaProjects/Multiplicator/src/META-INF",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "vcs.Git"
@@ -96,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652221261785</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mise à jour">
+      <created>1652221306108</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652221306108</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
