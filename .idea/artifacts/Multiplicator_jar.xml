@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Multiplicator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Multiplicator_jar</output-path>
+    <root id="archive" name="Multiplicator.jar">
+      <element id="module-output" name="Multiplicator" />
+    </root>
+  </artifact>
+</component>
