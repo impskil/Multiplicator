@@ -75,5 +75,4 @@ public class App {
         labelCalcul.setText(Integer.toString(a) + " x " + Integer.toString(b));
         labelResult.setText(Integer.toString(result));
     }
-
 }
