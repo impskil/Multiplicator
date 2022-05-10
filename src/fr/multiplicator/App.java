@@ -15,6 +15,7 @@ public class App {
     private JLabel labelResult;
     private JSlider sliderDifficult;
     private JLabel labelDifficult;
+    private JLabel labelMessage;
 
     public App() {
         labelDifficult.setText(Integer.toString(sliderDifficult.getValue()));
@@ -28,24 +29,22 @@ public class App {
                     int verifResultat = Integer.parseInt(textFieldReponse.getText());
                     int resultatAVerifier = Integer.parseInt(labelResult.getText());
                     if (verifResultat == resultatAVerifier) {
-                        JOptionPane.showConfirmDialog(null, "Bien joué !");
+                        //JOptionPane.showConfirmDialog(null, "Bien joué !");
+                        labelMessage.setText("Bien joué !");
                     } else {
-                        JOptionPane.showConfirmDialog(null, "C'est raté");
+                        //JOptionPane.showConfirmDialog(null, "C'est raté");
+                        labelMessage.setText("C'est raté");
                     }
                 } else {
                     //saisie incorrecte
-                    JOptionPane.showConfirmDialog(null, "Saisir incorrecte");
+                    //JOptionPane.showConfirmDialog(null, "Saisir incorrecte");
+                    labelMessage.setText("Saisir incorrecte");
                 }
                 textFieldReponse.setText(null);
-            }
-        });
-        buttonGenerer.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
                 methodeNvCalcul();
-
             }
         });
+
 
         sliderDifficult.addChangeListener(new ChangeListener() {
             @Override
