@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="468876fe-07af-4618-a62b-40ac19e0b512" name="Changes" comment="mise à jour">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Multiplicator_jar/Multiplicator.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Multiplicator_jar/Multiplicator.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/multiplicator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/multiplicator/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "Template Data Languages"
   }
 }]]></component>
   <component name="RunManager">
@@ -106,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652221306108</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mise à jour">
+      <created>1652221884988</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652221884988</updated>
+    </task>
+    <task id="LOCAL-00008" summary="mise à jour">
+      <created>1652222078792</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652222078792</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,5 +182,9 @@
     <MESSAGE value="mise en forme" />
     <MESSAGE value="mise à jour" />
     <option name="LAST_COMMIT_MESSAGE" value="mise à jour" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
