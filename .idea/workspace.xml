@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="468876fe-07af-4618-a62b-40ac19e0b512" name="Changes" comment="mise à jour">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/multiplicator/App.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/multiplicator/App.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/multiplicator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/multiplicator/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +26,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectId" id="28tznNSfNOQS1Frd3ZPpDPU5tyh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -177,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653067601714</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="mise à jour">
+      <created>1653068364609</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1653068364609</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

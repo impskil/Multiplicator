@@ -42,7 +42,7 @@ public class App {
             public void keyPressed(KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
                     if (textFieldReponse.getText().matches("-?\\d+") && textFieldReponse.getText().length() != 0) {
-                        //Saisie correcte
+                        //Saisie OK
                         int verifResultat = Integer.parseInt(textFieldReponse.getText());
                         int resultatAVerifier = Integer.parseInt(labelResult.getText());
                         if (verifResultat == resultatAVerifier) {
