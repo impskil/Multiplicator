@@ -9,7 +9,6 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 public class App {
-    private JButton button_msg;
     private JPanel panelMain;
     private JTextField textFieldReponse;
     private JLabel labelCalcul;
@@ -26,37 +25,7 @@ public class App {
     public App() {
         labelDifficult.setText(Integer.toString(sliderDifficult.getValue()));
         methodeNvCalcul();
-        button_msg.addActionListener(e -> {
-            if (textFieldReponse.getText().matches("-?\\d+") && textFieldReponse.getText().length() != 0) {
-                //Saisie correcte
-                int verifResultat = Integer.parseInt(textFieldReponse.getText());
-                int resultatAVerifier = Integer.parseInt(labelResult.getText());
-                if (verifResultat == resultatAVerifier) {
-                    //JOptionPane.showConfirmDialog(null, "Bien joué !");
-                    labelMessage.setText("Bien joué !");
-                    int Score = Integer.parseInt(labelScore.getText()) + 1 ;
-                    int Total = Integer.parseInt(labelTotal.getText()) + 1 ;
-                    labelScore.setText(Integer.toString(Score));
-                    labelTotal.setText(Integer.toString(Total));
 
-                } else {
-                    //JOptionPane.showConfirmDialog(null, "C'est raté");
-                    labelMessage.setText("C'est raté");
-                    int Total = Integer.parseInt(labelTotal.getText()) + 1 ;
-                    labelTotal.setText(Integer.toString(Total));
-                }
-                methodeNvCalcul();
-            }
-            else {
-                //saisie incorrecte
-                //JOptionPane.showConfirmDialog(null, "Saisir incorrecte");
-                labelMessage.setText("Saisie incorrecte");
-            }
-            float Ratio = Float.parseFloat(labelScore.getText()) / Float.parseFloat(labelTotal.getText()) * 100;
-            labelRatio.setText(Float.toString(Math.round(Ratio)) + "%");
-            textFieldReponse.setText(null);
-
-        });
 
 
         sliderDifficult.addChangeListener(e -> labelDifficult.setText(Integer.toString(sliderDifficult.getValue())));
